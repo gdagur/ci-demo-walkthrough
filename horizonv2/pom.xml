@@ -5,7 +5,7 @@
 	<groupId>apigee</groupId>
 	<artifactId>horizon</artifactId>
 	<version>-</version>
-	<name>horizon</name>
+	<name>horizon${deployment.suffix}</name>
 	<packaging>pom</packaging>
 
 	<pluginRepositories>
@@ -40,7 +40,7 @@
 		<org.slf4j.simpleLogger.defaultLogLevel>info</org.slf4j.simpleLogger.defaultLogLevel>
 		<project.root.dir>${basedir}</project.root.dir>
 		<target.root.dir>${basedir}/target</target.root.dir>
-		<deployment.suffix>${user.name}</deployment.suffix>
+		<deployment.suffix>-${user.name}</deployment.suffix>
 		<commit></commit>
 		<branch>a local</branch>
 	</properties>
