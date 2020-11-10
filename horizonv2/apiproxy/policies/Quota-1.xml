@@ -8,7 +8,7 @@
     <TimeUnit>hour</TimeUnit>
     <Allow>
         <Class ref="jwt.horizon-jwt.claim.context_name">
-            <Allow count="10"/>
+            <Allow count="5"/>
         </Class>
     </Allow>
 </Quota>

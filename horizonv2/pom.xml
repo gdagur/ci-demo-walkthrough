@@ -241,6 +241,19 @@
 						</configuration>
 					</execution>
 					<!-- run integration tests -->
+					<execution>
+					  <id>integration</id>
+					  <phase>install</phase>
+					  <goals>
+					    <goal>exec</goal>
+					  </goals>
+					  <configuration>
+					    <executable>./node_modules/cucumber/bin/cucumber.js</executable>
+					    <commandlineArgs>
+					      target/test/integration/features --tags ${api.testtag}
+					    </commandlineArgs>
+					  </configuration>
+					</execution>
 				</executions>
 			</plugin>
 

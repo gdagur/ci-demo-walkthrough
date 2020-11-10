@@ -33,4 +33,12 @@
     <RouteRule name="default">
         <TargetEndpoint>default</TargetEndpoint>
     </RouteRule>
+    <FaultRules>
+        <FaultRule name="invalid_token">
+            <Step>
+                <Name>horizon-invalid-jwt</Name>
+            </Step>
+            <Condition>(message.content Like "*JWT-Verify*")</Condition>
+        </FaultRule>
+    </FaultRules>
 </ProxyEndpoint>
