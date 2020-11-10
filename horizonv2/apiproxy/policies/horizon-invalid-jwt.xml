@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="horizon-invalid-jwt">
+    <DisplayName>Horizon invalid jwt error</DisplayName>
+    <Set>
+        <Payload contentType="application/json">{"status" : 401, "error":"Unauthorized", "message": "Invalid access token" }</Payload>
+        <StatusCode>401</StatusCode>
+        <ReasonPhrase>Unauthorized request</ReasonPhrase>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>
