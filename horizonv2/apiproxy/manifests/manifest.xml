@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="JWT-Verify" version="SHA-512:2cbeac76cd4433898ca33ddd4585d2dcf2bca32bbdb214e9b4d9fc0d3c928f28449d7ac94d4163aa0ec699c3dd7b09eff2b70c77af4b16662535319a18c17d9a"/>
+        <VersionInfo resourceName="Quota-1" version="SHA-512:bae713943915829475ef5f450a24eb8410ddb915728265ce48fc82fccc6bd0a4c458a678110aa4505054ba0eaf53bc87e60d90d1cc297b958ccaeecc7a67b1a7"/>
+        <VersionInfo resourceName="horizon-jwt" version="SHA-512:971dd4ddd323969e27677a829b6f5e48fbdb89ce6d0c80d72d1dd3549b237cb654cf88fff1febd716ae768e3a7fe16128f521ef49dd4022e3ab37b887fc376e3"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6045c9dbe6618fe5d356d39f43aadbf3e8b4da8847504a5182f474e111feeabfc8b3927e4d6780b844c85a2104427ca166ed722d103cad94a456a17699c273b4"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0e06cfd3e70ed715293e35aea41653468a391204a8424c69fffe314e0e4e0703e53d4063495d8f1bbbd0fc4f794467ea3c0220a77abb164a6e0d2b37744e1eca"/>
+    </TargetEndpoints>
+</Manifest>

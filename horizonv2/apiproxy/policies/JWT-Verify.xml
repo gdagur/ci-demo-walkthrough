@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VerifyJWT name="JWT-Verify">
+    <DisplayName>JWT Verify</DisplayName>
+    <Issuer>https://gaz-preview.csp-vidm-prod.com</Issuer>
+    <PublicKey>
+        <JWKS uri="https://console-stg.cloud.vmware.com/csp/gateway/am/api/auth/token-public-key?format=jwks"/>
+    </PublicKey>
+    <Algorithm>RS256</Algorithm>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+</VerifyJWT>
