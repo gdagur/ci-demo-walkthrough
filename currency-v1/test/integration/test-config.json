@@ -1,6 +1,0 @@
-{
-	"currencyApi": {
-		"domain": "demo-test.apigee.net",
-		"basepath": "/currency/v1"
-	}
-}
