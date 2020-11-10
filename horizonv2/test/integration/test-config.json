@@ -1,0 +1,6 @@
+{
+	"currencyApi": {
+		"domain": "gdagur-eval-test.apigee.net",
+		"basepath": "/edgecontroller/v1"
+	}
+}
